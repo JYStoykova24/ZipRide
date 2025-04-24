@@ -10,26 +10,26 @@ header {
     text-align: center;
     justify-content: space-between;
     padding-top: 60px;
-    max-width: 1200;
-    margin-inline: auto;
 }
 header p {
     display: flex;
     align-items: center;
+    padding-right: 60px;
 }
 header h1 {
+    padding-left: 60px;
 }
 
 header h1 span:nth-child(1) {
     text-align: center;
     letter-spacing: 1px;
-    font-size: 50px;
+    font-size: 70px;
     font-family: "Bebas Neue", sans-serif;
 }
 header h1 span:nth-child(2) {
     text-align: center;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 35px;
     font-family: "Bebas Neue", sans-serif;
 }
 header p {
@@ -38,27 +38,48 @@ header p {
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
 }
-li {
-    float: left;
+.centerNavbar li {
+    list-style: none;
+    background-color: #333;
 }
 
 .centerNavbar {
-    max-width: 1200;
-    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 60px;
+    width: 94%;
 }
 .centerNavbar a {
     display: block;
-    padding: 8px;
     letter-spacing: 3px;
+    display: block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    margin: 0 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #333;
+}
+.centerNavbar a:hover {
+    background-color: #555
+    color: #86e9ff; 
+    border-radius: 5px;
 }
 .centerNavbar ul {
     display: flex;
     justify-content: center;
-    gap: 240px;
-    margin-right: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 40px;
+    background-color: #333;
 }
 .centerNavbar nav {
     width: 100%;
+    background-color: #333;
 }
 /* body {
     margin: 0;
