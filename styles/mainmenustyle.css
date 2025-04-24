@@ -61,12 +61,13 @@ header p {
     font-family: "Bebas Neue", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
-    transition: background-color 0.3s, color 0.3s;
+    transition: 200ms;
     background-color: #333;
 }
 .centerNavbar a:hover {
-    background-color: #555
-    color: #86e9ff; 
+    background-color: #555;
+    letter-spacing: 5px;
+    color: #4e9eff;
     border-radius: 5px;
 }
 .centerNavbar ul {
